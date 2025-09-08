@@ -1,7 +1,7 @@
 {
   "name": "gembooth",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -16,13 +16,16 @@
     "immer": "latest",
     "lodash.shuffle": "latest",
     "p-limit": "latest",
-    "react": "latest",
-    "react-dom": "latest",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "zustand": "latest"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.3",
+    "typescript": "^5.5.4",
+    "vite": "^6.2.0",
+    "@vitejs/plugin-react": "^4.3.1"
   }
 }
